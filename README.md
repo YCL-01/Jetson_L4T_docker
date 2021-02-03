@@ -25,7 +25,7 @@
     
    - 6-2. tensorflow: https://wiki.loliot.net/docs/lang/python/libraries/yolov4/python-yolov4-about/
     
-   - 6-3. Deepstream, tensorRT: https://github.com/NVIDIA-AI-IOT/yolov4_deepstream(personal, ingnore it
+   - 6-3. Deepstream, tensorRT: https://github.com/NVIDIA-AI-IOT/yolov4_deepstream (personal, ingnore it)
    
   7.  cp the weight files to WORK_DIR/share
   
