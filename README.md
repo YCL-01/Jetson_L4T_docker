@@ -9,15 +9,15 @@
   https://developer.nvidia.com/embedded/learn/get-started-jetson-xavier-nx-devkit
   
   ### Setup
-  1.  sudo apt-get update
+  1.  $sudo apt-get update
   
-  2.  sudo usermod -aG docker $USER
+  2.  $sudo usermod -aG docker $USER
   
-  3.  reboot or logout and login
+  3.  $reboot or logout and login
   
-  4.  docker pull nvcr.io/nvidia/l4t-base:r32.5.0
+  4.  $docker pull nvcr.io/nvidia/l4t-base:r32.5.0
   
-  5.  docker pull nvcr.io/nvidia/l4t-ml:r32.5.0-py3
+  5.  $docker pull nvcr.io/nvidia/l4t-ml:r32.5.0-py3
   
   6.  download yolov4, yolov4-tiny weight files through internet
   
@@ -27,12 +27,12 @@
     
    - 6-3. Deepstream, tensorRT: https://github.com/NVIDIA-AI-IOT/yolov4_deepstream (personal, ingnore it)
    
-  7.  cp the weight files to WORK_DIR/share
+  7.  copy the weight files to [darknet|tensorflow]/share
   
-  8.  execute L4T_exec.sh in each folder(tensorflow, darknet)
+  8.  execute by "$source L4T_exec.sh" in each folder[tensorflow|darknet]
   
-  9.  After the execution, in container terminal go to the /root/share folder
+  9.  After the execution, go to "/root/share" directory in container terminal
   
   10. $source setup.sh
   
-  11. Execute machine learning model
+  11. End!
