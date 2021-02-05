@@ -18,8 +18,8 @@
   #### download yolov4, yolov4-tiny weight files through internet
    - darknet: https://github.com/AlexeyAB/darknet
    - tensorflow: https://wiki.loliot.net/docs/lang/python/libraries/yolov4/python-yolov4-about/
-  #### copy the weight files to [darknet|tensorflow]/share
-  #### execute by "$source L4T_exec.sh" in each folder[tensorflow|darknet]
-  #### After the execution, go to "/root/share" directory in container terminal
-      $source setup.sh
+          copy the weight files to [darknet|tensorflow]/share
+          execute by "$source L4T_exec.sh" in each folder[tensorflow|darknet]
+          After the execution, go to "/root/share" directory in container terminal
+          $source setup.sh
   
